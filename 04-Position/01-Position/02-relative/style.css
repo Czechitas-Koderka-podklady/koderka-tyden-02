@@ -1,0 +1,13 @@
+
+.relative {
+    /* zde dopiš relativní pozicování prostředniho obdélníku  */
+
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+
+
+.relative:hover {
+    left: 50px;
+}

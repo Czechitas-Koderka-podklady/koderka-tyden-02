@@ -1,0 +1,46 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+/* spolecne */
+body {
+    font: 18px/1.5 sans-serif;
+}
+
+/*
+ BARVY
+ czechitas  #b92e81
+ zelena     #2ecc71
+ modra      #3498db
+ fialova    #9b59b6
+ zluta      #f1c40f
+ oranzova   #e67e22
+ cervena    #e74c3c
+ seda       #bdc3c7
+ tmavsi     #95a5a6
+ tmava      #34495e
+*/
+
+
+
+.menu {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.menu a:hover {
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,42 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+*, :after, :before { box-sizing: border-box; }
+
+/* spolecne */
+body {
+    font: 18px/1.5 sans-serif;
+}
+
+/* barvy */
+.czechita  { background-color: #b92e81; }
+.zelena    { background-color: #2ecc71; }
+.modra     { background-color: #3498db; }
+.fialova   { background-color: #9b59b6; }
+.zluta     { background-color: #f1c40f; }
+.oranzova  { background-color: #e67e22; }
+.cervena   { background-color: #e74c3c; }
+.seda      { background-color: #bdc3c7; }
+.tmavsi    { background-color: #95a5a6; }
+.tmava     { background-color: #34495e; }
+
+
+/* bloky */
+.obrys { outline: 1px dashed red;}
+.zluty { background-color: #ffffd0; }
+
+.blok {
+    outline: 1px dotted black;
+    padding: 20px;
+}
+
+
+/* position */
+
+.obdelnik {
+    width: 300px;
+    height: 200px;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,76 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+/* spolecne */
+body {
+	font: 18px/1.5 sans-serif;
+}
+
+
+.hlavicka {
+	/*
+	napozicuj hlavičku fixně tak, aby byla stále
+	viditelná u horního okraje okna prohlížeče
+	a obsah stránky skroloval pod ní
+	*/
+
+}
+
+.paticka {
+	/*
+	napozicuj patičku fixně tak, aby byla stále
+	viditelná u dolního okraje okna prohlížeče
+	a obsah stránky skroloval pod ní
+	*/
+
+
+}
+
+.obsah {
+	/*
+	přidej CSS, aby obsah nahoře a dole na stránce
+	nebyl zakrytý hlavičkou a patičkou
+	*/
+
+
+}
+
+
+
+
+/* ---------------------------------------- */
+
+/* styl pro patičku */
+.paticka {
+	background-color: lightblue;
+	padding: 20px;
+	text-align: center;
+}
+
+
+/*
+	menu nastylované tak, jak jsme ho společně
+	vyrobili v lekci o vlastnosti display
+*/
+.menu {
+	margin: 0;
+	padding: 0;
+	background-color: lightblue;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 30px;
+}
+
+.menu a:hover {
+	background-color: blue;
+	color: white;
+}

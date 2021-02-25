@@ -1,0 +1,34 @@
+.hlavicka {
+	/* napozicuj hlavičku fixně k hornímu okraji okna prohlížeče */
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100px;
+}
+
+
+.paticka {
+	/* napozicuj patičku fixně k dolnímu okraji okna prohlížeče */
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+}
+
+
+.poznamka {
+	/* napozicuj poznámku k pravému okraji  okna prohlížeče */
+
+	position: fixed;
+	right: 0;
+	top: 40%;
+}
+
+body {
+	margin-top: 130px;
+	margin-bottom: 100px;
+}

@@ -1,0 +1,46 @@
+/*
+
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+*/
+
+
+html {
+	font: 16px/1.5 sans-serif;
+}
+
+.box {
+	margin: 30px 0;
+}
+
+.box :first-child {
+	margin-top: 0;
+}
+
+.box :last-child {
+	margin-bottom: 0;
+}
+
+/* --------------------------------------- */
+
+.box {
+	padding: 50px;
+	border: 25px solid black;
+	background-color: #ffffcc;
+}
+
+.contentbox {
+	width: 600px;
+	box-sizing: content-box;
+}
+
+.borderbox {
+	width: 600px;
+	box-sizing: border-box;
+}
+
+
+* {
+	box-sizing: border-box;
+}

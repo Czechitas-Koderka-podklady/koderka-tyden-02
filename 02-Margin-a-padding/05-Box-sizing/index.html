@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Box sizing</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Porovnání box-sizing</h1>
+
+	<p>Nastav oběma boxům stejnou šířku 600px a každému z nich nastav jiný box-sizing. Podívej se, jaké jsou rozdíly v jejich velikosti.</p>
+
+	<div class="box contentbox">
+		<h2>Content box</h2>
+		<p>Standardní výchozí nastavení CSS. Při nastavení velikosti (<code>width</code> a <code>height</code>) se nastavuje <strong>velikost obsahu</strong> uvnitř boxu. <code>padding</code> a <code>border</code> nejsou započítány a k šířce se přidávají, tj. vizuálně je box větší než nastavená velikost.</p>
+		<p>Nastaví se pomocí <code>box-sizing: content-box;</code>, ale jedná se o výchozí hodnotu, takže nastavovat nemusíme.</p>
+	</div>
+
+	<div class="box borderbox">
+		<h2>Border box</h2>
+		<p>Logičtější a praktičtější model. Bohužel není jako výchozí a musí se specificky nastavit. Při nastavení velikosti se nastaví <strong>velikost boxu</strong> včetně paddingu a borderu.</p>
+		<p>Nastaví se pomocí <code>box-sizing: border-box;</code></p>
+	</div>
+
+
+</body>
+</html>

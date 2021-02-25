@@ -1,0 +1,78 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+/* spolecne */
+body {
+    font: 18px/1.5 sans-serif;
+}
+
+/*
+ BARVY
+ czechitas  #b92e81
+ zelena     #2ecc71
+ modra      #3498db
+ fialova    #9b59b6
+ zluta      #f1c40f
+ oranzova   #e67e22
+ cervena    #e74c3c
+ seda       #bdc3c7
+ tmavsi     #95a5a6
+ tmava      #34495e
+*/
+
+.sedy    { background-color: #e5e5e5; }
+.zluty   { background-color: #ffffd0; }
+
+.blok {
+    outline: 1px dashed black;
+    padding: 20px;
+}
+
+.inline {
+    border: 1px dashed red;
+}
+
+.odstavec {
+    margin: 1px 0;
+    color: white;
+    border: 1px solid black;
+}
+
+.prvni {
+    background-color: #2ecc71;
+}
+
+.druhy {
+    background-color: #f1c40f;
+}
+
+.treti {
+    background-color: #e74c3c;
+}
+
+
+
+.nadpis {
+    width: 30%;
+}
+
+.text {
+    width: 40%;
+}
+
+a {
+    /*
+    height: 100px;
+    width: 200px;
+    */
+
+    display: inline-block;
+    padding: 50px;
+    background-color: cyan;
+}
+
+.odstavec {
+    display: inline;
+}

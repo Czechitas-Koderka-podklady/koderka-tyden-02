@@ -1,0 +1,86 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+body {
+	font: 18px/1.5 'Ranchers', cursive;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.domecek {
+	margin: 50px auto;
+	width: 700px;
+	height: 400px;
+	border: 5px solid black;
+	border-radius: 20px;
+	background: url(images/stred.png) no-repeat center/cover;
+	/*
+		tady asi budeš muset něco přidat, abys
+		pak mohla pozicovat kočky v rámci domečku
+		a ne celé stránky
+	*/
+
+
+}
+
+.dopis {
+	width: 84px;
+	height: 150px;
+	/*
+		kočka si svoje zamilované dopisy
+		nejraději čte v levém dolním rohu domečku
+	*/
+
+}
+
+.motyl {
+	width: 170px;
+	height: 118px;
+	/*
+		kočka nejraději honí motýly přesně
+		uprostřed domečku, protože tam má na
+		dovádění nejvíc místa
+	*/
+
+}
+
+.kniha {
+	width: 120px;
+	height: 140px;
+	/*
+		kočka si ráda čte svoje knihy v klidu,
+		proto sedí v levém horním rohu domečku,
+		ale nejraději tak, aby v rohu domečku
+		nebyl její levý horní roh, ale její střed
+		(tj. vyčuhuje z domečku ven)
+	*/
+
+}
+
+.sluchatka {
+	width: 124px;
+	height: 150px;
+	/*
+		tahle kočka poslouchá hudbu a na tancování
+		si vybrala místo v pravém horním rohu domečku,
+		ale tak, aby byla vzdálená 30px od pravé strany
+		domečku a 30 px od horní hrany domečku - potřebuje
+		totiž na svůj tanec trochu prostoru
+	*/
+
+}
+
+.spanek {
+	width: 154px;
+	height: 75px;
+	/*
+		kočka s myší je unavená, a proto chce jít
+		spát do pravého dolního rohu domečku
+	*/
+
+}

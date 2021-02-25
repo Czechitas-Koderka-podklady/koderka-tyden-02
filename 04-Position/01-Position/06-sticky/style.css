@@ -1,0 +1,25 @@
+
+.sticky {
+    /*
+    napozicuj box tak, aby se při skrolování
+    zastavil o horní okraj stránky
+    */
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+/* -----------------------------*/
+
+/* toto je tu jen proto, aby pozicovaný obdélník nějak vypadal */
+.sticky {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px dashed black;
+    background-color: #ffffd0;
+}
+
