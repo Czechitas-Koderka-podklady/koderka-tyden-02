@@ -5,11 +5,13 @@ body {
 	font-family: sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
-	max-width: 700px;
-	margin: 50px auto;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 30px;
 }
 
 h1 {
+	margin-top: 0;
 	font-size: 48px;
 	color: red;
 	border-bottom: 10px solid silver;

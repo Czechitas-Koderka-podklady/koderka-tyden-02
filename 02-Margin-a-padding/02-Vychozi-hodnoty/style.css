@@ -13,19 +13,3 @@ h1 {
 	color: red;
 	border-bottom: 10px solid silver;
 }
-
-body {
-	margin: 0;
-}
-
-p {
-	margin-top: 0;
-	margin-bottom: 0;
-	/* border: 10px solid blue; */
-	background-color: orange;
-}
-
-ul {
-	list-style: none;
-	padding-left: 0;
-}

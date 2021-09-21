@@ -12,22 +12,4 @@ h1 {
 	font-size: 48px;
 	color: red;
 	border-bottom: 10px solid silver;
-
-	text-align: center;
-}
-
-
-.box {
-	background-color: lightgoldenrodyellow;
-	border: 5px solid blue;
-	padding: 30px;
-
-	width: 60%;
-
-	/*
-	margin-left: auto;
-	margin-right: auto;
-	*/
-
-	margin: 0 auto;
 }

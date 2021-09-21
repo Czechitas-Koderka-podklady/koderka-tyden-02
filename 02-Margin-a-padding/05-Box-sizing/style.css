@@ -30,17 +30,11 @@ html {
 	background-color: #ffffcc;
 }
 
+
 .contentbox {
-	width: 600px;
-	box-sizing: content-box;
+
 }
 
 .borderbox {
-	width: 600px;
-	box-sizing: border-box;
-}
 
-
-* {
-	box-sizing: border-box;
 }

@@ -22,25 +22,3 @@ body {
  tmava      #34495e
 */
 
-
-
-.menu {
-    margin: 0;
-    padding: 0;
-    background-color: lightblue;
-}
-
-.menu li {
-    display: inline-block;
-}
-
-.menu a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 30px;
-}
-
-.menu a:hover {
-    background-color: blue;
-    color: white;
-}

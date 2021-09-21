@@ -71,6 +71,6 @@ body {
 }
 
 .menu a:hover {
-	background-color: blue;
-	color: white;
+	background-color: white;
+	color: blue;
 }

@@ -51,28 +51,3 @@ body {
 .treti {
     background-color: #e74c3c;
 }
-
-
-
-.nadpis {
-    width: 30%;
-}
-
-.text {
-    width: 40%;
-}
-
-a {
-    /*
-    height: 100px;
-    width: 200px;
-    */
-
-    display: inline-block;
-    padding: 50px;
-    background-color: cyan;
-}
-
-.odstavec {
-    display: inline;
-}
