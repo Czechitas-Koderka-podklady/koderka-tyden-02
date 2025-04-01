@@ -7,6 +7,7 @@ Tento týden se budemě věnovat těmto oblastem:
 - Margin a padding, collapsing margins
 - Vlastnost `display` - nastavení typu a chování prvku, skrytí prvku
 - Pozicování prvků pomocí pomocí vlastnosti `position` - relativní, absolutní, fixní pozicování
+- CSS jednotky - jaké různé jednotky můžeme v CSS použít
 
 ## Stažení podkladů
 
