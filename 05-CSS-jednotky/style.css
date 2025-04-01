@@ -1,0 +1,66 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+html {
+	/* font-size: 24px; */
+}
+
+body {
+	font-family: sans-serif;
+	padding: 30px;
+}
+
+.box1 {
+	width: 300px;
+	background: dodgerblue;
+}
+
+.box2 {
+	width: 50%;
+	background: tomato;
+}
+
+.box3 {
+	width: 50vw;
+	background: mediumseagreen;
+}
+
+.x {
+	font-size: 24px;
+}
+
+.box4 {
+	width: 20rem;
+	background: orange;
+}
+
+.box5 {
+	width: 20em;
+	background: mediumpurple;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+	margin: 5px 0;
+	padding: 10px;
+	color: white;
+}
+
+.kontejner1 {
+	padding: 1em;
+	border: 5px solid grey;
+	font-size: 18px;
+}
+
+.kontejner2 {
+	padding: 1em;
+	border: 5px solid silver;
+	font-size: 1.5em;
+}
+
+.velikost-rem {
+	font-size: 1rem;
+}
+
+.velikost-em {
+	font-size: 1.5em;
+}
